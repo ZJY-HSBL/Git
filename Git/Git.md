@@ -16,13 +16,13 @@
 
 记录文件每一次的更新，可以对每个版本做一个快照，或是记录补丁文件，适合个人用，如RCS。
 
-![](D:\文件\Java\Git\img\local.png)
+![](./img/local.png)
 
 ### 集中版本控制SVN
 
 所有的版本数据都保存在服务器上，协同开发从服务器上同步更新或上传自己的修改
 
-![](D:\文件\Java\Git\img\centralized.png)
+![](./img/centralized.png)
 
 ### 分布式版本控制Git
 
@@ -32,7 +32,7 @@
 
 不会因为服务器损坏或者网络问题造成不能工作的情况。
 
-![](D:\文件\Java\Git\img\distributed.png)
+![](./img/distributed.png)
 
 ### Git和SVN的最主要的区别
 
@@ -50,7 +50,7 @@ Git CMD：Windows风格的命令行
 
 Git GUI：图形界面的Git
 
-![](D:\文件\Java\Git\img\QQ截图20240420211227.png)
+![](./img/QQ截图20240420211227.png)
 
 ## Git基本理论
 
@@ -60,7 +60,7 @@ Git本地有三个工作区域：工作目录(Working Directory)、暂存区(Sta
 
 转换关系如下：
 
-![](D:\文件\Java\Git\img\微信图片_20240418212336.png)
+![](./img/微信图片_20240418212336.png)
 
 - Workspace：工作区，就是你平时存放项目代码的地方
 - Index / Stage：暂存区，用于临时存放你的改动，事实上它只是一个文件，保存即将提交到文件列表信息
@@ -69,7 +69,7 @@ Git本地有三个工作区域：工作目录(Working Directory)、暂存区(Sta
 
 本地的三个区域确切的说应该是git仓库中HEAD指向的版本：
 
-![](D:\文件\Java\Git\img\微信图片_20240418212909.png)
+![](./img/微信图片_20240418212909.png)
 
 - Directory：使用Git管理的一个目录，也就是一个仓库，包含我们的工作空间和Git的管理空间。
 - WorkSpace：需要通过Git进行版本控制的目录和文件，这些目录和文件组成了工作空间。
@@ -88,7 +88,7 @@ Git本地有三个工作区域：工作目录(Working Directory)、暂存区(Sta
 
 因此，git管理的文件有三种状态：已修改(modified)、以暂存(staged)、已提交(committed)
 
-![](D:\文件\Java\Git\img\640.jpg)
+![](./img/640.jpg)
 
 ## Git项目搭建
 
@@ -98,7 +98,7 @@ Git本地有三个工作区域：工作目录(Working Directory)、暂存区(Sta
 
 日常使用只要记住下图6个命令：
 
-![](D:\文件\Java\Git\img\640.png)
+![](./img/640.png)
 
 ### 本地仓库搭建
 
